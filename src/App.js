@@ -99,7 +99,7 @@ function App() {
         </InputGroup>
       </Container>
       <Container>
-        <Row className="mx-2 row row-cols-4">
+        <Row className="mx-2 row-cols1 row-cols-md-4">
           {albums.map((album, i) => {
             console.log(album);
             return (
